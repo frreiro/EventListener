@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>EventListeners Exemples</title>
+</head>
+
+<body>
+    <main>
+        <!-- add eventlist via js -->
+        <section class="add_in_js">
+            <h1>Como adicionar um EventListener via Javascript?</h1>
+            <button>Clique</button>
+            <h2>Ainda não houve um clique</h2>
+        </section>
+        <!-- != onclick e eventlist -->
+        <section class="onclick_e_event">
+            <h1>Qual a diferença de um Event Listener de atributos HTML?</h1>
+            <div>
+                <aside><h3></h3></aside>
+                <button class="botao1">onClick</button>
+                <button class="botao2">EventListener</button>
+                <aside><p></p></aside>
+            </div>
+        </section>
+        <!-- callback -->
+        <section class="receber_evento">
+            <h1>O que é o objeto Event que é recebido na função de callback?</h1>
+            <div>
+                <button>Receber Objeto</button>
+                <div style="flex-direction: column;">
+                </div>
+            </div>
+        </section>
+        <!-- event Bubbling -->
+        <section class="bubbling">
+            <h1>O que é Event Bubbling em JS?</h1>
+            <div>
+                <aside></aside>
+                <div class="pai">
+                    PAI
+                    <div class="filho">
+                        FILHO
+                    </div>
+                </div>
+                <button class="propagation">Parar Propagação</button>
+                <button class="limpar">Limpar Tela</button>
+            </div>
+        </section>
+
+        <!-- event Capture -->
+        <section class="capture">
+            <h1>O que faz o parametro useCapture do addEventListener?</h1>
+            <div>
+                <aside>
+                </aside>
+                <div class="pai">
+                    PAI
+                    <div class="filho">
+                        FILHO
+                    </div>
+                </div>
+                <button> Limpar Tela</button>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="JS/script.js"></script>
+</body>
+
+</html>

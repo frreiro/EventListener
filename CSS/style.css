@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    text-align: center;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+h2{
+    margin-top: 10px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    background: #E7E7E7;
+    border-radius: 10px;
+    border: silver;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+    margin-left: 10px;
+
+}
+
+div{
+    display: flex;
+    
+}
+aside{
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+.add_in_js{
+    background-color: palevioletred;
+}
+
+.onclick_e_event{
+    background-color: blue;
+}
+.receber_evento{
+    background-color: green;
+}
+
+.bubbling{
+    background-color:orange;
+}
+.capture{
+    background-color: palegreen;
+}
+.pai{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+}
+.filho{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
